@@ -16,7 +16,7 @@ export default function Layout() {
 			// }}
 		>
 			<SideBar />
-			<div className='flex-1 flex-col bg-neutral-50 flex overflow-hidden'>
+			<div className='flex-1 flex-col bg-customSilver flex overflow-hidden'>
 				<Profile />
 				<div className=' flex-1  p-4 overflow-y-auto '>
 					<Outlet />

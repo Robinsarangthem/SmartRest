@@ -15,7 +15,7 @@ export default function Profile() {
 	const email = localStorage.getItem('email')
 	const { handleLogout, logoutPending } = useAuth()
 	return (
-		<div className='bg-slate-200 h-[50px] flex items-center  shadow-md '>
+		<div className='bg-customThistle h-[50px] flex items-center  shadow-md '>
 			<div className=' flex items-center justify-end px-5 gap-4 py-[7px] w-full   '>
 				<div className='flex flex-col '>
 					{email ? (
